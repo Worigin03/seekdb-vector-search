@@ -1,5 +1,5 @@
 ---
-name: seekdb-vector-search
+name: seekdb-vector
 description: 用 seekdb（OceanBase 出品的轻量级 AI 数据库）搭向量检索 / 语义搜索 / RAG 检索层时使用。覆盖 Docker 起库与就绪判定、VECTOR 表与 HNSW 索引 DDL、l2 / cosine / inner_product 三种距离的近似检索、向量 + 全文混合查询、pyseekdb 读写集合，以及「索引不生效」「连不上」「查询超时」的排查。
 license: Apache-2.0
 ---
