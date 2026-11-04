@@ -1,4 +1,4 @@
-# seekdb-vector-search
+# seekdb-vector
 
 一个给 AI Agent 用的 Skill：在本机用 [seekdb](https://github.com/oceanbase/seekdb) 搭向量检索，从起库到第一次近似查询，走完不踩坑。
 
@@ -38,7 +38,7 @@ docker exec -i seekdb mysql -h127.0.0.1 -P2881 -uroot < examples/queries.sql
 ## 安装到 Agent
 
 ```bash
-curl -fsSL https://modelscope.cn/skills/install.sh | bash -s -- <owner>/seekdb-vector-search
+curl -fsSL https://modelscope.cn/skills/install.sh | bash -s -- Worigin/seekdb-vector
 ```
 
 或直接把整个目录拷进 agent 的 skills 目录（如 `~/.agents/skills/`、`.claude/skills/`）。
